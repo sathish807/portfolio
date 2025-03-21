@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient( rgb(108, 194, 108),rgb(39, 192, 184));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    
+    height: 2cm;
+    width: 100%;
+    display: inline-flex;
+    padding: 32px 10px;
+}
+.navbar h1{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 32px;
+    color: rgb(6, 69, 73);
+    text-shadow: 5px 5px 12px rgb(10, 190, 25);
+}
+.navbar li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding:0px 30px;
+    padding-top: 5px;
+    
+}
+.navbar .list{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left:19cm;
+    padding-top: 5px;
+    
+}
+.content{
+    margin: 50px;
+    padding: 30px;
+    width: 50%;
+}
+.content h1{
+    font-family: monospace;
+    font-size: 55px;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
+.content h2{
+    font-family: monospace;
+    font-size:30px;
+    letter-spacing:3px;
+    font-weight: bold;
+    color: aqua;
+    text-shadow: 0px 0px 10px rgb(12, 87, 3);
+}
+.image{
+    width: 300px;
+    position: absolute;
+    bottom: 4cm;
+    left:25cm;
+    border-radius:40px 0px 40px 0px;
+    box-shadow: 10px 10px 9px green;
+    
+}
+.btn1 ,.btn2{
+    padding:10px;  
+    margin-left: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 0 9px rgb(12, 87, 3);
+    background-color:green;
+    color: aquamarine;
+}
+.btn1{
+    margin-left: 7cm;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(23, 224, 224);
+    color: rgb(6, 73, 17);
+
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgb(23, 224, 224);
+    color: rgb(6, 73, 17);
+    
+}
+.btn1:active{
+    color: green;
+    background-color: aliceblue;
+}
+.btn2:active{
+    color: green;
+    background-color: aliceblue;
+}
+.footer{
+    padding: 5px 10px;
+    display: inline-flex;
+    font-size: 17px;
+}
+.footer i{
+font-size: 25px;
+padding: 0px 8px;
+margin-top: 7px;
+margin-left: 5px;
+}
+#facebook{
+    color: blue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 30px;
+    padding:2px 4px;
+}
+#youtube{
+    color: red;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 30px;
+    padding:2px 4px;
+}
+#whatsapp{
+    color: rgb(50, 218, 50);
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 30px;
+    padding:2px 4px;
+}
+#instagram{
+    color:rgb(202, 33, 165) ;
+    background-image: linear-gradient( rgb(141, 108, 194),rgb(238, 142, 233),rgba(255, 114, 114, 0.856),rgb(241, 200, 65));
+    border-radius: 5px;
+    width: 30px;
+    padding:2px 4px;
+    
+}
